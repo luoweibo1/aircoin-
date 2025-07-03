@@ -2,39 +2,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>AirCoin Official</title>
     <style>
         body {
-            background-color: #007BFF;
+            font-family: sans-serif;
+            background: linear-gradient(to bottom right, #2193b0, #6dd5ed);
             color: white;
-            font-family: Arial, sans-serif;
             text-align: center;
-            padding-top: 50px;
-        }
-        .button {
-            background-color: white;
-            color: #007BFF;
-            border: none;
-            padding: 10px 20px;
-            margin: 10px;
-            cursor: pointer;
-            border-radius: 5px;
-            font-weight: bold;
+            padding: 50px 20px;
         }
         img {
             width: 120px;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .button {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 24px;
+            background-color: white;
+            color: #2193b0;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        .contract {
+            background: rgba(255,255,255,0.1);
+            padding: 10px;
+            margin: 20px auto;
+            width: fit-content;
+            border-radius: 6px;
+            font-family: monospace;
         }
     </style>
 </head>
 <body>
-    <img src="aircoin-logo.png" alt="AirCoin Logo" />
+    <img src="logo.png" alt="AirCoin Logo" />
     <h1>Welcome to AirCoin</h1>
     <p>This project is commemoratively issued to encourage users to collect and witness together. It is not speculation-oriented.</p>
-    <p><strong>Contract Address:</strong> 0x4ebc08403e4e846aa7da141d3fe5e82127565043</p>
-    <a href="https://t.me/luobotout"><button class="button">Join Telegram</button></a>
-    <a href="aircoin_whitepaper.pdf" target="_blank"><button class="button">View Whitepaper</button></a>
-    <a href="https://x.com/AirCoinOfficial"><button class="button">Official X (Twitter)</button></a>
+    <div class="contract">Contract Address: 0x4ebc08403e4e846aa7da141d3fe5e82127565043</div>
+    <div>
+        <a href="https://t.me/luobotout" class="button">Join Telegram</a>
+        <a href="aircoin_whitepaper.pdf" class="button">View Whitepaper</a>
+        <a href="https://x.com/AirCoinERC20" class="button">Official X (Twitter)</a>
+    </div>
 </body>
 </html>
