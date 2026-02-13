@@ -1,0 +1,17 @@
+{
+  "name": "AirCoin Token List",
+  "timestamp": "2026-02-14T00:00:00Z",
+  "version": { "major": 1, "minor": 0, "patch": 0 },
+  "tags": {},
+  "keywords": ["aircoin", "AIR", "base"],
+  "tokens": [
+    {
+      "chainId": 8453,
+      "address": "0x6e6A3b8B8376eA65B92aD3F93Fe046C186e56764",
+      "name": "AirCoin",
+      "symbol": "AIR",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/luoweibo1/aircoin-/main/aircoin-logo.png"
+    }
+  ]
+}
