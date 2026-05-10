@@ -12,8 +12,10 @@
       "symbol": "AIR",
       "decimals": 18,
       "logoURI": [
-        "https://raw.githubusercontent.com/luoweibo1/aircoin-/main/aircoin-512.png",
-        "https://raw.githubusercontent.com/luoweibo1/aircoin-/main/AirCoin_OnBase_logo.svg"
+        "https://github.com/luoweibo1/aircoin-/blob/main/aircoin-1024-logo.png?raw=true",
+        "https://github.com/luoweibo1/aircoin-/blob/main/aircoin-512.png?raw=true",
+        "https://github.com/luoweibo1/aircoin-/blob/main/aircoin-64.png?raw=true",
+        "https://github.com/luoweibo1/aircoin-/blob/main/AirCoin_OnBase_logo.svg?raw=true"
       ]
     }
   ]
